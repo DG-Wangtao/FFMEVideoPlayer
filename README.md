@@ -1,2 +1,1 @@
-# FFMEVideoPlayer
-使用FFmepg封装的WPF MideaElement，可以播放rtsp视频流。感谢 https://github.com/unosquare/ffmediaelement
+这是一个WPF中播放rtsp等流视频文件的示例，使用的方式是使用ffmpeg封装MediaElement来实现的。封装的方法是unosquare做的，我只是把他的成果拿来用罢了，找了好久才找到在wpf中播放rtsp流（当然vlc、nvlc、winform控件和流转bitmap的方式也能实现，但都没有这个效率高而且它不依赖任何其他内容），封装的源码请查看：https://github.com/unosquare/ffmediaelement  
