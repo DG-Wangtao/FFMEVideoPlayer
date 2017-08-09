@@ -10,16 +10,10 @@
     <Grid>
         <ScrollViewer>
             <WrapPanel>
-        <!--<ListBox Name="PlayerBox">-->
                 <player:PlayerControl x:Name="player1" SourceStr="http://ivi.bupt.edu.cn/hls/cctv1hd.m3u8" Width="400" Height="400"></player:PlayerControl>
                 <player:PlayerControl x:Name="player2" SourceStr="http://ivi.bupt.edu.cn/hls/cctv5phd.m3u8" Width="400" Height="400"></player:PlayerControl>
                 <player:PlayerControl x:Name="player3" SourceStr="http://ivi.bupt.edu.cn/hls/cctv6hd.m3u8" Width="400" Height="400"></player:PlayerControl>
                 <player:PlayerControl x:Name="player4" SourceStr="rtmp://live.hkstv.hk.lxdns.com/live/hks" Width="400" Height="400"></player:PlayerControl>
-                <!--<player:PlayerControl x:Name="player5" SourceStr="rtsp://192.168.4.16/libra" Width="400" Height="400"></player:PlayerControl>
-                <player:PlayerControl x:Name="player6" SourceStr="rtsp://192.168.4.16/libra" Width="400" Height="400"></player:PlayerControl>
-                <player:PlayerControl x:Name="player7" SourceStr="rtsp://192.168.4.16/libra" Width="400" Height="400"></player:PlayerControl>
-                <player:PlayerControl x:Name="player8" SourceStr="rtsp://192.168.4.16/libra" Width="400" Height="400"></player:PlayerControl>-->
-        <!--</ListBox>-->
             </WrapPanel>
         </ScrollViewer>
     </Grid>
